@@ -1,3 +1,32 @@
+# PicInfo: Caption Generation for Images
+
+## Abstract
+
+Image captioning involves generating human3
+readable descriptions or sentences that accurately depict
+the content of an image. In this study, we propose an
+image caption generation utilizing two NLP techniques
+Greedy Search(argmax) and Beam Search.
+Convolutional Neural Networks (CNN), specifically the
+InceptionV3 model is used for image feature extraction.
+The combination of CV and NLP techniques are applied
+to a Facebook public multimodal dataset (PMD)
+comprising 566,747 training images and 25,010 test
+images. From this dataset, 16,000 training images are
+utilized for feature extraction and training the Natural
+Language Processing (NLP) model, while 1,600 test
+images are employed for feature extraction and testing
+the NLP model. The image caption generation
+techniques (Greedy Search and Beam Search) are
+compared based on BLEU (Bilingual Evaluation
+Understudy), ROUGE-L and METEOR score. Through
+comprehensive experimentation and evaluation, this
+study aims to provide insights into the comparative
+performance of different caption generation approaches.
+
+## Model Architecture
+![alt text](./NLP_Architecture.png)
+
 ```python
 ! python -m pip uninstall tensorflow -y
 ! python -m pip uninstall keras -y
