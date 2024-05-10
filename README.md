@@ -1,6 +1,6 @@
 # PicInfo: Caption Generation for Images
 
-Image captioning involves generating human3
+Image captioning involves generating human
 readable descriptions or sentences that accurately depict
 the content of an image. In this study, we propose an
 image caption generation utilizing two NLP techniques
