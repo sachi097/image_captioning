@@ -1,7 +1,5 @@
 # PicInfo: Caption Generation for Images
 
-## Abstract
-
 Image captioning involves generating human3
 readable descriptions or sentences that accurately depict
 the content of an image. In this study, we propose an
@@ -26,6 +24,8 @@ performance of different caption generation approaches.
 
 ## Model Architecture
 ![alt text](./NLP_Architecture.png)
+
+## Code
 
 ```python
 ! python -m pip uninstall tensorflow -y
